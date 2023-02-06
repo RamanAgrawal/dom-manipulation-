@@ -4,3 +4,8 @@ console.log("madarchod");
 let add= document.querySelector('.title')
 add.style.fontWeight='bold';
 add.style.color='green'
+let item=document.getElementsByClassName('list-group-item')
+item[2].style.backgroundColor='green';
+for(let i=0;i<item.length;i++){
+    item[i].style.fontWeight='bold'
+}
